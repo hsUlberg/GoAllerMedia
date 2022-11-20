@@ -2,7 +2,7 @@
 
 # Run
 ```go
-go run main.go
+go run internal/main.go
 ```
 
 # View

@@ -22,7 +22,7 @@ func main() {
 		}
 
 		result := utils.SortArticles(articles, ContentMarketing)
-		c.JSON(http.StatusOK, gin.H{"message": result})
+		c.JSON(http.StatusOK, gin.H{"Response": result})
 
 	})
 
